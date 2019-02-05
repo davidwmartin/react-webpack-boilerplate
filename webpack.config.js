@@ -22,7 +22,13 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           'style-loader', 
-          'css-loader',
+          {
+          	loader:'css-loader',
+          	options: {
+          		modules: true,
+          		localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+          	}
+          },
           {
           	loader: 'postcss-loader',
           	options: {

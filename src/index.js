@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 
 import Pattern from './pattern/pattern';
 
-import styles from './test.css';
+import styles from './test.css'; // note - if using multiple style imports with current package (https://github.com/gajus/babel-plugin-react-css-modules) - will need to use named reference
 
 
 const title = 'Boilerplate';
@@ -13,9 +13,9 @@ const title = 'Boilerplate';
 class Layout extends React.Component {
 	render() {
 		return (
-			<div className='test'>
+			<div styleName='test'>
 				<h1>{title}</h1>
-				<div className='inner'>
+				<div styleName='inner'>
 					<span>Inner</span>
 				</div>
 				<Pattern />
