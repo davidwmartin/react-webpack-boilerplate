@@ -3,10 +3,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const title = 'My minimal webpack react babel setup';
+import Pattern from './pattern/pattern';
+
+import styles from './test.css';
+
+
+const title = 'Boilerplate';
+
+class Layout extends React.Component {
+	render() {
+		return (
+			<div className='test'>
+				<h1>{title}</h1>
+				<div className='inner'>
+					<span>Inner</span>
+				</div>
+				<Pattern />
+			</div>
+		)
+	}
+}
 
 ReactDOM.render(
-	<div>{title}</div>,
+	<Layout />,
 	document.getElementById('app')
 );
 

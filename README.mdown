@@ -1,4 +1,16 @@
 # Webpack 4 / React boilerplate 
 
-Following tutorial [here](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
+Starting point: [this tutorial](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
 
+[Another source](https://auralinna.blog/post/2018/setting-up-webpack-4-for-a-project)
+
+## Additional Goals: 
+
+### Style boilerplate
+
+- CSS Modules
+- PostCSS w/ some SCSS-like features
+	- variables
+	- nesting
+	- autoprefixer
+- Normalize

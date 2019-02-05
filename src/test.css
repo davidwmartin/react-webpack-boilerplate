@@ -1,0 +1,10 @@
+
+.test{
+	border: 1px solid lightblue;
+	padding: 1rem;
+	
+	.inner{
+		background:green;
+		/*color:$primaryColor;*/
+	}
+}
