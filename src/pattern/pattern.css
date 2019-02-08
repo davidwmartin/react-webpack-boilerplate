@@ -6,6 +6,7 @@
 	span{
 		/*color:$secondaryColor;*/
 		font-style: italic;
-		color: $primaryColor;
+		color: darken($primaryColor, 0.2);
+		font-size: fontSize(2);
 	}
 }

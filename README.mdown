@@ -11,6 +11,28 @@ Starting point: [this tutorial](https://www.robinwieruch.de/minimal-react-webpac
 - CSS Modules
 - PostCSS w/ some SCSS-like features
 	- variables
+		- also see: 
+			- https://github.com/css-modules/css-modules/blob/master/docs/values-variables.md
+			- https://github.com/postcss/postcss-custom-properties
 	- nesting
 	- autoprefixer
 - Normalize
+
+Plugins to consider: 
+- https://github.com/hail2u/node-css-mqpacker
+- https://github.com/postcss/postcss-mixins
+- https://github.com/jonathantneal/postcss-advanced-variables
+- [scss parser](https://github.com/postcss/postcss-scss)
+- [preCSS](https://github.com/jonathantneal/precss)
+
+
+### Pattern library / componentization
+
+Existing 
+- [storybook](https://storybook.js.org/basics/guide-react/)
+- [bit](https://docs.bitsrc.io/tutorial/react-tutorial.html)
+- [lightweight alternative](https://www.npmjs.com/package/react-patterns)
+
+DIY / Articles
+- https://hackernoon.com/making-of-a-component-library-for-react-e6421ea4e6c7
+- 
