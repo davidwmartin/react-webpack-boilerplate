@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Pattern from './pattern/pattern';
+import Pattern from './components/pattern/pattern';
 
 import styles from './test.css'; // note - if using multiple style imports with current package (https://github.com/gajus/babel-plugin-react-css-modules) - will need to use named reference
 

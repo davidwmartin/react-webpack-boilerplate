@@ -30,9 +30,10 @@ Plugins to consider:
 
 Existing 
 - [storybook](https://storybook.js.org/basics/guide-react/)
+	- [lots of great addons](https://storybook.js.org/addons/addon-gallery/)
 - [bit](https://docs.bitsrc.io/tutorial/react-tutorial.html)
 - [lightweight alternative](https://www.npmjs.com/package/react-patterns)
 
 DIY / Articles
 - https://hackernoon.com/making-of-a-component-library-for-react-e6421ea4e6c7
-- 
+- https://itnext.io/how-to-write-your-own-reusable-react-component-library-a57dc7c9a210
