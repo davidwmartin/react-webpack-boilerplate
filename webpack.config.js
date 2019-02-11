@@ -38,6 +38,21 @@ module.exports = {
           	}
           }
         ]
+      },
+
+      // don't use css modules with external css (anything in node_modules)
+      {
+        test: /\.css$/,
+        exclude: /src/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: false
+            }
+          }
+        ]
       }
     ]
   },
